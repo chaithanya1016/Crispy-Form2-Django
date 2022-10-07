@@ -1,0 +1,10 @@
+{% extends "base_content/base.html" %} {% load crispy_forms_tags %}
+<!-- ++ == Block Content == ++-->
+{% block content %}
+
+<div class="home container">
+  <h1 class="h1 text-center">Home Page</h1>
+  <br />
+  <a class="btn btn-sm btn-success" href="{% url 'signup' %}">SignUp</a>
+</div>
+{% endblock content %}
